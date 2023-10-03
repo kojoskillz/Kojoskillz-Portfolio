@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body class="bg-gray-900">
+
+    
+    <nav role='navigation' class="nav h-12  shadow-2xl">
+        
+        <div class="flex m-1 w-10 h-10 rounded-full">
+            <img src="" alt="" class="w-12 h-12 myimg1">
+             <h1 class="font-extrabold name_color  flex place-content-center m-auto ml-2 word">
+                KOJO <span class="text-gray-900">SKILLZ</span>
+             </h1>
+        </div>
+
+
+        <div id="menuToggle">
+          <!--
+          A fake / hidden checkbox is used as click reciever,
+          so you can use the :checked selector on it.
+          -->
+          <input type="checkbox" />
+        
+          <span></span>
+          <span></span>
+          <span></span>
+          
+
+          <ul id="menu">
+             <li class="text_hover"><a href="#Home">Home</a></li>
+             <li class="text_hover"><a href="#About">About</a></li>
+             <li class="text_hover"><a href="#Project">Project</a></li>
+             <li class="text_hover"><a href="#Contact">Contact</a></li>
+         </ul>
+        </div>
+      </nav>
+
+
+    <section class="bg-gradient-to-tl  from-gray-950 from-65% to-blue-950/100 "
+    data-aos="fade-in"
+    data-aos-duration="1500"
+    id="Home">
+
+        <div class="text-center grid place-content-center pt-20 m-auto">
+            <h1 class="font-bold text-4xl text-slate-400 mt-16 word1">
+                HI THERE, <span class="lawn_color font-extrabold  text-7xl"> KWADWO NYARKO</span> 
+            </h1>
+            <span class="mt-3">
+                <h1 class="font-light text-4xl">
+                  <span class="navy_text">{</span> <span class="navy_text" id="element"></span><span class="navy_text">}</span> 
+                </h1>
+            </span>
+
+            <p class="mt-10 p-5 text-gray-400 font-semibold">
+                I'm a software developer and technical writer who loves creating websites and using my writing 
+                skills to help others. I enjoy the challenge of creating beautiful designs that are both clear and 
+                easy to navigate.
+    
+            </p>
+    
+        </div>
+
+        <div class="cardX m-auto">
+          
+            
+            <a href="https://twitter.com/kojo_skillz?t=Dg1ZKm7opH3jQy_xftrSCw&s=09" class="socialContainer  containerTwo">
+              <svg class="socialSvg" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><style>svg{fill:#ffffff}</style><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+            </a>
+              
+            <a href="https://www.linkedin.com/in/kwadwo-nyarko-78496a237" class="socialContainer containerThree">
+              <svg class="socialSvg linkdinSvg" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>
+            </a>
+            
+            <a href="https://wa.me/233541833813" class="socialContainer containerFour">
+              <svg class="socialSvg whatsappSvg" viewBox="0 0 16 16"> <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path> </svg>
+            </a>
+          </div>             
+          
+          
+
+        
+        <a href="tel:+233541833813"> <button class="ui-btn m-auto mt-10 btnX uppercase ">
+            <span class="text-white">
+            <Download></Download>  LETS TALK
+            </span>
+          </button>
+        </a>        
+
+    </section>
+    
+
+
+
+      <section class="bg-gray-950 trans_effect1 media-height1 bodyY" id="About">
+       
+        
+            <div class="">
+
+                 <img src="img1.png" alt="picture" class="myimg pt-20"  
+                 data-aos="fade-up"
+                 data-aos-duration="2000"
+                 >
+            </div>
+
+
+
+            <div>
+                <h1 class="font-bold text-slate-500 m-auto grid place-content-center mt-20 text-4xl uppercase word1"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+                >
+                    About Me
+                </h1>
+            </div>
+    
+            <span class="lawn_color_bg rounded-md w-10 h-1.5 grid place-content-center m-auto mt-5" 
+            data-aos="zoom-in"
+            data-aos-duration="2500"
+            data-aos="ease-in"></span>
+
+
+            <div class="text-center p-2" 
+            data-aos="fade-up"
+            data-aos-duration="2000">
+                <h1 class="text-xl font-semibold lawn_color">
+                    < Kwadwo Nyarko />
+                </h1>
+                <p class="text-lg text-slate-300 font-bold">
+                   <b> Front-End Developer/ <span class="text-slate-300">Technical Writer</span></b>
+                </p>
+    
+    <br>
+                <p class="font-normal text-slate-300 text-lg"> 
+                   Hello, I'm <b>Kwadwo Nyarko,</b> a <b>Front-End Developer</b> and <b>Technical Writer</b> from  <b>Ghana.</b> Passionate
+                   about creating websites and ready to develop unique websites.
+                </p>
+                <p class="font-normal text-slate-300 text-lg mt-5">
+                    I like sharing ideas on web-development to help others starting out.I'm open to job opportunities that
+                    matches my skills.
+                </p>
+    
+                </div>
+    
+                <a href="https://docs.google.com/document/d/1ZAzpYWEA5FH8S_aJOSIg-3PNphwXsIaA/edit?usp=drivesdk&ouid=103319659943942112166&rtpof=true&sd=true" download="MY RESUME.docx">
+                  <button class="ui-btn m-auto mt-10 uppercase btnX" 
+                    data-aos="slide-up"
+                    data-aos-duration="1500">
+                      <span class="text-white">
+                         Download CV
+                      </span>
+                    </button>          
+                </a>
+    
+
+            </div>
+
+            <div>
+
+              <div class=" text-slate-500 grid place-content-center font-bold mt-32 text-4xl" 
+              data-aos="fade-right"
+              data-aos-duration="1500">
+                <h1 class="word1">
+                    MY SKILLS
+                </h1>
+                <span class="navy rounded-md w-10 h-1.5 grid place-content-center m-auto mt-5 lawn_color_bg" 
+                data-aos="zoom-in"
+                data-aos-duration="1500"></span>
+
+                </div>
+          
+                 <div class="grid grid-cols-3 place-content-center mt-16 w-60 gap-7 text-white/50  m-auto"
+                  data-aos="fade-up"
+                  data-aos-duration="1500">
+                    <div>
+                        <img src="html-5.png" alt="">
+                        <h1 class="font-bold text-sm text-center">
+                            HTML
+                        </h1>
+                    </div>
+                    <div>
+                        <img src="css-3.png" alt="">
+                        <h1 class="font-bold text-sm text-center">
+                            CSS
+                        </h1>
+                         
+                    </div>
+                    <div>
+                        <img src="javascript (1).png" alt="">
+                        <h1 class="font-bold text-sm text-center uppercase">
+                            JavaScript
+                        </h1>
+                    </div>
+                    <div>
+                        <img src="tailwindcss.png" alt="" class="h-16 m-0.5">
+                        <h1 class="font-bold text-sm -mt-1.5 text-center ">
+                        TAILWIND
+                        </h1>
+                    </div>
+                    <div>
+                        <img src="git.png" alt="">
+                        <h1 class="font-bold text-sm text-center">
+                            GIT
+                        </h1>
+                    </div>
+                    <div>
+                        <img src="github.png" alt="">
+                        <h1 class="font-bold text-sm text-center">
+                            GIT-HUB
+                        </h1>
+
+                    </div>
+                    
+                 </div>
+                </div>
+
+               
+
+
+                <!-- Projects -->
+                 <div class="grid place-content-center font-bold mt-20   text-4xl" id="Project" 
+                 data-aos="fade-right"
+                 data-aos-duration="1500">
+                    <h1 class="text-slate-500 word1">
+                       PROJECTS
+                    </h1>
+                    <span class="navy rounded-md w-10 h-1.5 grid place-content-center m-auto mt-5 lawn_color_bg" 
+                    data-aos="zoom-in"
+                    data-aos-duration="1500"></span>
+                     <p class="text-sm font-semibold mt-8 text-center navy_text">
+                        View my latest projects
+                     </p>
+
+                    </div>
+
+
+                    <!-- Casfis Restaurant Site -->
+                    <div class=" grid place-content-center " >
+
+                    <div class="card-container m-auto mt-20" 
+                    data-aos="fade-up"
+                    data-aos-duration="1500">
+                        <div class="card">
+                        <div class="img-content">
+                            <img src="casfisimg.png" alt="" class="h-64 object-center w-screen">
+                        </div>
+                        <div class="content contY">
+                          <p class="heading">Casfis Restaurant</p>
+                          <p>
+                           Casfis Restaurant is one of the leading restaurant sites in Ghana where
+                           we provide nothing but the best
+                          </p>
+                        </div>
+                        
+                      </div>
+
+                      
+                      <div class="text-center mt-5 font-normal text-2xl">
+                        <h1 class="text-slate-300">
+                            Casfis Restaurant
+                        </h1>
+                        <p class="text-lg p-2 text-slate-400">
+                             A simple restaurtant site where local and continetal dishes are served
+                        </p>
+
+                        <a href="casfis.html"><button class="ui-btn m-auto mt-10 uppercase btnX">
+                            <span>
+                               View Project
+                            </span> 
+                          </button></a>        
+                              </div>
+
+
+                              <!-- Gaming -->
+                    <div class="card-container m-auto mt-20" 
+                    data-aos="fade-up"
+                    data-aos-duration="1500">
+                        <div class="card">
+                        <div class="img-content">
+                            <img src="Gaming site.jpg" alt="" class="h-64">
+                        </div>
+                        <div class="content">
+                          <p class="heading">Game-Hub </p>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipii
+                            voluptas ten mollitia pariatur odit, ab
+                            minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+                            necessitatibus dignissimos molestias.
+                          </p>
+                        </div>
+                        
+                      </div>
+                      
+                      
+                      <div class="text-center mt-5 font-normal text-2xl">
+                        <h1 class="text-slate-300">
+                            Game-Hub
+                        </h1>
+                        <p class="text-lg p-2 text-slate-400">
+                                Inspired by playstation, made a simple site for video games
+                        </p>
+
+                        <a href="gamehub.html"><button class="ui-btn m-auto mt-10 uppercase btnX">
+                            <span>
+                            <Download></Download>  View Project
+                            </span> 
+                          </button></a>        
+                              </div>
+
+                     <!-- UrRestaurant -->
+                    <div class="card-container m-auto mt-20"
+                     data-aos="fade-up"
+                     data-aos-duration="1500">
+                        <div class="card">
+                        <div class="img-content">
+                            <img src="restaurant site.jpeg" alt="" class="h-64">
+                        </div>
+                        <div class="content">
+                          <p class="heading">Netflix-Clone </p>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipii
+                            voluptas ten mollitia pariatur odit, ab
+                            minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+                            necessitatibus dignissimos molestias.
+                          </p>
+                        </div>
+                        
+                      </div>
+                      
+                      
+                      <div class="text-center mt-5 font-normal text-2xl">
+                        <h1 class="text-slate-300">
+                            UrRecipe
+                        </h1>
+                        <p class="text-lg p-2 text-slate-400">
+                            A site made for cooks.This was built for checking out recipes
+                        </p>
+
+                        <a href="recipe.html"><button class="ui-btn m-auto btnX mt-10 uppercase btnX">
+                            <span>
+                            <Download></Download>  View Project
+                            </span> 
+                          </button></a>        
+                              </div>
+
+                    </div>
+
+                    <div class="card-container m-auto mt-72" data-aos="fade-up"
+                    data-aos-duration="1500">
+                        <div class="card">
+                        <div class="img-content">
+                            <img src="restaurant site.jpeg" alt="" class="h-64">
+                        </div>
+                        <div class="content">
+                          <p class="heading">Netflix-Clone </p>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipii
+                            voluptas ten mollitia pariatur odit, ab
+                            minus ratione adipisci accusamus vel est excepturi laboriosam magnam
+                            necessitatibus dignissimos molestias.
+                          </p>
+                        </div>
+                        
+                      </div>
+                      
+                      
+                      <div class="text-center mt-5 font-normal text-2xl">
+                        <h1 class="text-slate-300">
+                            UrRecipe
+                        </h1>
+                        <p class="text-lg p-2 text-slate-400">
+                            A site made for cooks.This was built for checking out recipes
+                        </p>
+
+                        <a href="recipe.html"><button class="ui-btn m-auto btnX mt-10 uppercase btnX">
+                            <span>
+                            <Download></Download>  View Project
+                            </span> 
+                          </button></a>        
+                              </div>
+
+
+                    </div>
+    
+      </section>
+
+
+      <section class="bg-gray-900 text-slate-400 font-bold  text-2xl word1">
+        <h1 class="text-center text-4xl p-5"
+        data-aos="fade-right"
+        data-aos-duration="1500">
+            Technical Writing Blog
+        </h1>
+        <span class=" lawn_color_bg rounded-md w-10 h-1.5 grid place-content-center m-auto" 
+        data-aos="zoom-in"
+        data-aos-duration="1500"></span>
+
+        <p class="text-sm font-semibold text-slate-400 text-center navy_text mt-5 shadow-blue-800" 
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        >
+            View my technical writing blog
+        </p>
+
+        <div>
+            <div class="bg-slate-300 w-96  h-64 m-auto mt-10 contY cursor-pointer" 
+            data-aos="fade-up"
+            data-aos-duration="1500">
+               <a href="https://dev.to/kojoskillz/a-guide-on-how-to-become-a-front-end-developer-4cok">
+                <img src="guide (1).jpg" alt="">
+                <div class="bg-slate-100 w-96 h-32 text-black/90 shadow-xl grid text-center place-content-center contY font-bold text-2xl">
+                <h1>
+                    A Guide On How To Become A Front-End Developer
+                </h1>  
+                </div>   
+            </a>
+              </div>
+                             
+            <div class="bg-slate-300 w-96  h-64 m-auto mt-80 contY cursor-pointer" 
+            data-aos="fade-up"
+            data-aos-duration="1500">
+                <a href="https://dev.to/kojoskillz/css-frameworks-1hj5">
+                <img src="guide (2).jpg" alt="">
+                <div class="bg-slate-100 w-96 h-32 text-black/90 shadow-xl grid text-center place-content-center contY  font-bold text-2xl">
+                  <h1>
+                    CSS Frameworks
+                  </h1>
+                </div>   
+            </a>
+              </div>
+              
+              
+        </div>
+        
+        <div class="grid place-content-center mt-64">
+            <a href="https://dev.to/dashboard">
+                <button class="text-white text-lg text-center border-sky-400 font-thin mt-20  p-2 border-solid border-2" 
+                data-aos="fade-up"
+                data-aos-duration="1500">
+                View More &#8594
+            </button>
+            </a>
+        </div>
+
+      </section>
+                       <!-- scroll_to_top button -->
+                       <span class="top absolute" onclick="scrollToTop()">&#8593</span>
+
+
+      <!-- contact section -->
+    <section class="bg-gray-950" id="Contact">
+
+        <h1 class=" mt-20 text-slate-400 text-center font-bold text-3xl p-3 word1" 
+        data-aos="fade-right"
+        data-aos-duration="1500">
+            CONTACT
+        </h1>
+        <span class="lawn_color_bg rounded-md w-10 h-1.5 grid place-content-center m-auto" 
+        data-aos="zoom-in"
+        data-aos-duration="1500"></span>
+
+        <p class="mt-5 text-center text-slate-200 font-normal lawn_color text-lg"
+        data-aos="fade-up"
+        data-aos-duration="1500">
+           Have any project in mind or just want to say "Hi",
+           Shoot me a message by contacting me with the form below and I will get back to you.
+        </p>
+
+        <form id="contactForm" 
+        data-aos="fade-up"
+        data-aos-duration="1500">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="enter name" required>
+           
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="khojoben07@gmail.com" required>
+           
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"  placeholder="Hey I got a project in mind, i've shot you a message..."></textarea>
+           
+            <button type="submit" class="btnX1 btnX uppercase">shoot</button>
+          </form>
+        
+    </section>       
+
+
+
+
+
+<!-- footer section -->
+<section class="footerX bg-black -mt-5">
+
+    <div class="grid p-6 gap-y-4">
+        <h1 class="text-white font-bold ml-2 text-2xl">
+            Lets Connect
+        </h1>
+         
+        <div class="flex gap-x-1">
+
+            <a href="https://twitter.com/kojo_skillz?t=Dg1ZKm7opH3jQy_xftrSCw&s=09">
+              <img src="X.png" alt="" class="w-12 h-12">
+            </a>
+
+
+            <a href="https://wa.me/233541833813">
+              <img src="whatsapp.png" alt="" class="w-12 h-12">
+            </a>
+
+            
+            <a href="https://www.linkedin.com/in/kwadwo-nyarko-78496a237">
+              <img src="linkedin.png" alt="" class="w-12 h-12">
+            </a>
+          
+             <a href="https://discordapp.com/uers/1035431348019675166">
+              <img src="discord.png" alt="" class="w-12 h-12">
+             </a>
+ 
+             <a href="https://github.com/kojoskillz">
+              <img src="github1.png" alt="" class="w-12 h-12">
+             </a>
+
+
+
+          </div>
+
+    </div>
+
+
+    <div class="p-6 grid">
+        <h1 class="text-white font-bold text-xl ">
+            Kwadwo Nyarko
+        </h1>
+        
+        <p class="text-white mt-2">
+          A Front-End Developer passionate about creating and bringing your imagination into realities.
+        </p>
+
+    </div>
+<hr class="bg-slate-500  w.5">
+        <h1 class="text-white mt-5 text-sm text-center cursor-pointer">
+            &copy; Copyright 2023. Made by <span class="font-bold underline">Kwadwo Nyarko</span>, Skillzlab.
+        </h1>
+</section>
+
+
+
+
+
+
+ 
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+
+<!-- animateonscroll -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init();</script>
+
+</body>
+</html>
