@@ -1,4 +1,4 @@
 # Kojoskillz-Portfolio
-My personal portfolio site that showcasess my skills and tools use in my projects.
-live link is below
+My portfolio site showcases the skills and tools used in my projects.
+the live link is below
 https://kojoskillz.onrender.com
