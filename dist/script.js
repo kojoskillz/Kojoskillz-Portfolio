@@ -1,21 +1,18 @@
 
 const typed = new Typed('#element', {
-    strings: ['Front-End Developer', 'Technical Writer'],
-    typeSpeed: 90,
+    strings: ['Software Engineer', 'Technical Writer'],
+    typeSpeed: 115,
     backSpeed:20,
     loop:true,  
 
 });
 
 
-
 // scroll_to_top
     function scrollToTop() {
-        window.scrollTo(0,0);
-         
+        window.scrollTo(0,0);   
     }
-
-
+ 
 
 // form validation
 document.getElementById("contactForm").addEventListener("submit", function(event) {
